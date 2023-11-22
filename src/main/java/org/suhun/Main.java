@@ -6,8 +6,10 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-
+//        System.out.printf("Hello and welcome!");
+        int[] nums = {31, 22, 89, 122, 87, 1};
+        BubbleSort bubbleSort = new BubbleSort();
+        bubbleSort.bubble_sort(nums);
+        bubbleSort.printResult();
     }
 }
